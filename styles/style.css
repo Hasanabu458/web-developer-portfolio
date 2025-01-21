@@ -154,9 +154,9 @@ padding: 10px 20px;
 margin-bottom: 24px;
 border: none;
 }
-.hide{
-    display: none;
-}
+/* .hide{ */
+
+
 @media screen and (max-width:576px) {
     .skills-container {
     flex-direction: column;
