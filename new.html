@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Md Abu Hasan | Web Developer Portfolio</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="shortcut icon" href="https://img.icons8.com/?size=96&id=yTUucE19g03g&format=png" type="image/x-icon">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Open Sans', sans-serif;
+            line-height: 1.6;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+
+        ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        ul li a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        .banner {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 20px;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        .banner-content {
+            flex: 1 1 400px;
+        }
+
+        .banner-profile {
+            max-width: 250px;
+            border-radius: 10px;
+        }
+
+        .skills-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .resume-container {
+            display: flex;
+            gap: 30px;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+
+        .resume-coloumn {
+            flex: 1 1 400px;
+        }
+
+        footer {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        .footer-column {
+            flex: 1 1 300px;
+            margin-bottom: 30px;
+        }
+
+        .btn-primary {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 6px;
+            text-decoration: none;
+            display: inline-block;
+            margin: 5px 0;
+        }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+        }
+
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .banner {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .resume-container {
+                flex-direction: column;
+            }
+
+            footer {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .footer-column {
+                width: 100%;
+                text-align: center;
+            }
+
+            .skills-container {
+                grid-template-columns: 1fr;
+            }
+
+            .banner-content {
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body class="open-sans-normal">
+    <!-- Your existing HTML content remains unchanged -->
+    <!-- Copy and paste your full HTML content here or keep as-is -->
+    <header class="header secondary-bg">
+        <nav>
+           <h3 class="nav-title"> Abu Has<span class="text-primary">a</span>n</h3> 
+           <ul>
+            <li>
+        <a class="dark-2"  href="">Portfolio</a>
+           </li>
+           <li><a class="dark-2" href="">Blog</a></li>
+           <li>
+            <a href=""><button class="btn-primary">Hire me</button></a>
+           </li>
+        </ul>
+        </nav>
+        <div class="banner">
+            <div class="banner-content">
+        <h4 class="banner-greetings dark-2">Hi, I  am</h4>
+        <h1 class="banner-title">Md Abu Hasan</h1>
+        <p class="banner-description">I, m a designer & developer with a passion for web design. I enjoy developing simple, clean and slick websites that provide real value to the end user. I am a junior developer . Still learning developing . Not available for work now.</p>
+        <button class="btn-primary"  > <a href="images/My cv 2025.docx" >Download CV</a></button>
+        <button class="btn-primary"> <a href="https://m.dcmaa.org/DC24MAA000204" target="_blank">Contact</a></button>
+            </div>
+            <img class="banner-profile" src="images/hasan_cropped.png" alt="">
+        </div>
+        
+            </header>
+            <main>
+        <section class="about secondary-bg ">
+        <h3 class="section-title">About Me</h3>
+        <p class="section-description">I, m a designer & developer with a passion for web design. I enjoy developing simple, clean and slick websites that provide real value to the end user. I am a junior developer . Still learning developing . Not available for work now.</p>
+        <div class="about-items">
+            <div class="about-item">
+                <p class="item-title">Name</p>
+                <p class="item-description">Md Abu Hasan</p>
+            </div>
+            <div class="about-item">
+                <p class="item-title">Email</p>
+                <p class="item-description">abuh458@gmail.com</p>
+            </div>
+            <div class="about-item">
+                <p class="item-title">Date of birth</p>
+                <p class="item-description">13 july 1997</p>
+            </div>
+            <div class="about-item">
+                <p class="item-title">From</p>
+                <p class="item-description">Satkhira,Khulna</p>
+            </div>
+        </div>
+        
+        </section>
+        
+        <section class="skills">
+            <h3 class="section-title text-center">What i do </h3>
+            <p class="section-description text-center">I am a junior developer . Still learning developing . Not available for work now.</p>
+        
+            <div class="skills-container">
+            <div class="skill">
+                <img src="images/icons/js.png" alt="">
+                <h4 class="skill-title">Vanilla JavaScript</h4>
+                <p class="skill-description">I, m a designer & developer with a passion for web design. I enjoy developing simple, clean and slick websites that provide real value to the end user. I am a junior developer . Still learning developing . Not available for work now.</p>
+            </div>
+            <div class="skill">
+                <img src="images/icons/react.png" alt="">
+                <h4 class="skill-title">React</h4>
+                <p class="skill-description">I, m a designer & developer with a passion for web design. I enjoy developing simple, clean and slick websites that provide real value to the end user. I am a junior developer . Still learning developing . Not available for work now.</p>
+            </div>
+            <div class="skill">
+                <img src="images/icons/nodejs.png" alt="">
+                <h4 class="skill-title">Node.js</h4>
+                <p class="skill-description">I, m a designer & developer with a passion for web design. I enjoy developing simple, clean and slick websites that provide real value to the end user. I am a junior developer . Still learning developing . Not available for work now.</p>
+            </div>
+            <div class="skill">
+                <img src="images/icons/mongo.png" alt="">
+                <h4 class="skill-title">MongoDB</h4>
+                <p class="skill-description">I, m a designer & developer with a passion for web design. I enjoy developing simple, clean and slick websites that provide real value to the end user. I am a junior developer . Still learning developing . Not available for work now.</p>
+            </div>
+            </div>
+        
+        </section>
+        <section class="resume">
+            <h3 class="section-title text-center">A summary of My Resume</h3>
+            <div class="resume-container">
+                <div class="resume-coloumn">
+                    <h3 class="coloumn-title">My Education</h3>
+                    <div class="experience">
+                        <h4 class="experience-title">Master in Business Administration</h4>
+                        <h5 class="experience-sub-title">Dhaka University / 2020 - 2021</h5>
+                        <div class="experience-description">I, m a designer & developer with a passion for web design. I enjoy developing simple, clean and slick websites that provide real value to the end user. I am a junior developer . Still learning developing . Not available for work now.</div>
+                    </div>
+                    <hr>
+                    <div class="experience">
+                        <h4 class="experience-title">Bachelor of Business Administration</h4>
+                        <h5 class="experience-sub-title">Dhaka University / 2015 - 2019</h5>
+                        <div class="experience-description">I, m a designer & developer with a passion for web design. I enjoy developing simple, clean and slick websites that provide real value to the end user. I am a junior developer . Still learning developing . Not available for work now.</div>
+                    </div>
+                    <hr>
+                    <div class="experience">
+                        <h4 class="experience-title">Higher Secondary School Certificate</h4>
+                        <h5 class="experience-sub-title">Kashimari Ideal School & College / 2014-15</h5>
+                        <div class="experience-description">I, m a designer & developer with a passion for web design. I enjoy developing simple, clean and slick websites that provide real value to the end user. I am a junior developer . Still learning developing . Not available for work now.</div>
+                    </div>
+                </div>
+                <div class="resume-coloumn">
+                    <h3 class="coloumn-title">My Experience</h3>
+                    <div class="experience">
+                        <h4 class="experience-title">Showroom Manager</h4>
+                        <h5 class="experience-sub-title">Pran-RFL/ 2022-2024</h5>
+                        <div class="experience-description">I, m a designer & developer with a passion for web design. I enjoy developing simple, clean and slick websites that provide real value to the end user. I am a junior developer . Still learning developing . Not available for work now.</div>
+                    </div><hr>
+        
+                    <div class="experience">
+                        <h4 class="experience-title">Booth Operator</h4>
+                        <h5 class="experience-sub-title">Drinkwell-WASA/ 2024-current</h5>
+                        <div class="experience-description">I, m a designer & developer with a passion for web design. I enjoy developing simple, clean and slick websites that provide real value to the end user. I am a junior developer . Still learning developing . Not available for work now.</div>
+                    </div><hr>
+        
+                    <div class="experience">
+                        <h4 class="experience-title">Sales Officer</h4>
+                        <h5 class="experience-sub-title">Olympic Industries Ltd.</h5>
+                        <div class="experience-description">I, m a designer & developer with a passion for web design. I enjoy developing simple, clean and slick websites that provide real value to the end user. I am a junior developer . Still learning developing . Not available for work now.</div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center resume-download-cv">
+                <button class="btn-primary"><a href="images/My cv 2025.docx">Download CV</a></button>
+            </div>
+            
+        </section>
+        
+        
+        
+            </main>
+        
+            <footer class="secondary-bg">
+        <div class="footer-column">
+        <h3 class="section-title">Lets Connect
+        </h3>
+        <p>Please fill out the form on this section to contact with me or call between 9:00 A.M and 8.00 P.M ET, Monday through Friday.</p>
+        
+        <div>
+            <a href="https://web.facebook.com/profile.php?id=100007770722465" target="_blank"><img src="images/icons/facebook.png" alt=""></a>
+            
+            <a href="https://m.dcmaa.org/DC24MAA000204" target="_blank"><img src="images/icons/insta.png" alt=""></a>
+            <a href="https://m.dcmaa.org/DC24MAA000204" target="_blank"><img src="images/icons/twitter.png" alt=""></a>
+            </div>
+        </div>
+        
+        
+        
+        
+        <div class="footer-column">
+            <h3 class="section-title">Let's Message Me</h3>
+            <form action="">
+                <input type="text" placeholder="your name"><br><br>
+                 <input type="email" name="" id="" placeholder="your email"><br><br>
+                 <textarea name="" id="" cols="30" rows="20" placeholder="write your message here"></textarea><br>
+                 <input class="btn-primary" type="submit" value="submit">
+            </form>
+        </div>
+        
+        
+            </footer>
+        
+</body>
+</html>
